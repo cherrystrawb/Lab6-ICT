@@ -1,0 +1,125 @@
+body {
+margin: 10px 10%;
+background-image: url("images/background.svg");
+color: #b39999;
+font-family: "EB Garamond", "Trebuchet MS", sans-serif;
+}
+
+#journal {
+border: 10px solid white;
+padding: 0 0 40px;
+background-color: white;
+overflow: auto;
+}
+
+#header {
+background-color: #52c9c9;
+text-align: right;
+padding: 5px;
+}
+
+h1, h2 {
+color:#1e5151;
+font-weight: normal;
+margin: 0;
+}
+
+h1 {
+font-size: 42px;
+}
+
+h2 {
+font-size: 32px;
+}
+
+#header h2 {
+font-size: 24px;
+}
+
+#friends {
+float: left;
+width: 22%;
+box-sizing: border-box;
+margin-top: 10px;
+border: 6px solid #004d4d;
+padding: 5px;
+background-color: #40d5cd;
+}
+
+#friends ul {
+padding-left: 25px;
+color: black;
+font-family: "Times New Roman", serif;
+font-size: 18px;
+}
+
+#friends li {
+margin: 4px 0;
+}
+
+#friends a {
+color: #806666;
+text-decoration: none;
+}
+
+#friends .featured-friend {
+color: white;
+font-weight: bold;
+}
+
+#friends a:hover {
+text-decoration: underline;
+}
+
+#entries {
+margin-left: 24%;
+}
+
+.entry {
+border: 4px solid #c2e9e9;
+background-color: #e8fbfb;
+padding: 5px;
+margin-top: 10px;
+overflow: auto;
+}
+
+.date {
+border-bottom: 2px dashed blue;
+}
+
+.entry p {
+font-size: 20px;
+line-height: 1.4;
+margin: 14px 0;
+}
+
+.entry-image {
+float: right;
+width: 220px;
+max-width: 45%;
+height: auto;
+margin: 0 0 5px 12px;
+}
+
+@media (max-width: 650px) {
+body {
+margin: 10px 3%;
+}
+
+#friends {
+float: none;
+width: 100%;
+}
+
+#entries {
+margin-left: 0;
+}
+
+h1 {
+font-size: 30px;
+}
+
+h2 {
+font-size: 26px;
+}
+}

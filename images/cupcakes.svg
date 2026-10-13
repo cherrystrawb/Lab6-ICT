@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="190" viewBox="0 0 220 190">
+<rect width="220" height="190" fill="#f4e8d5"/>
+<ellipse cx="110" cy="146" rx="101" ry="29" fill="#fff" stroke="#c7d9de" stroke-width="4"/>
+<defs><g id="cake"><path d="M-26 0H26L19 48H-19Z" fill="#daae65" stroke="#ac8342" stroke-width="2"/><path d="M-13 5L-10 43M0 5V44M13 5L10 43" stroke="#f3d59d" stroke-width="3"/><path d="M-29 0Q-32-16-18-18Q-20-32-5-32Q5-48 16-30Q33-24 25-13Q39-4 29 3Z" fill="#563125"/><circle cy="-25" r="16" fill="#d7a76c" stroke="#a7733e" stroke-width="2"/><g fill="#533026"><circle cx="-7" cy="-29" r="3"/><circle cx="5" cy="-33" r="3"/><circle cx="7" cy="-20" r="3"/><circle cx="-6" cy="-18" r="3"/></g></g></defs>
+<use href="#cake" transform="translate(111 70) scale(.85)"/><use href="#cake" transform="translate(58 108)"/><use href="#cake" transform="translate(163 108)"/>
+</svg>
